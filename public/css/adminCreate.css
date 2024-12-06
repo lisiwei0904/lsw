@@ -1,0 +1,84 @@
+
+body {
+    background: linear-gradient(135deg, #1f1f1f, #2d0059, #000);
+    font-family: 'Orbitron', sans-serif;
+    color: #d4d4d8;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background: rgba(25, 0, 51, 0.9);
+    border: 2px solid #ff007f;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 0, 127, 0.6);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+main:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #00ffff;
+    text-shadow: 0 0 8px #00ffff, 0 0 20px #ff007f;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ff007f;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+input, select, textarea {
+    background: rgba(15, 15, 40, 0.8);
+    border: 1px solid #00ffff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: inset 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #ff007f;
+    box-shadow: 0 0 10px #ff007f, inset 0 0 10px rgba(255, 0, 127, 0.6);
+    outline: none;
+}
+
+button {
+    background: linear-gradient(90deg, #ff007f, #00ffff);
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.6);
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00ffff, #ff007f);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+}
+
+select {
+    color: #d4d4d8;
+}
+
+select option {
+    background: #1f1f1f;
+    color: #fff;
+}

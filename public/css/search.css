@@ -1,0 +1,112 @@
+/* General Body Styles */
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: #0e0e0e;
+    color: #dcdcdc;
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(45deg, #4e4e4e, #1c1c1c);
+    background-size: cover;
+}
+
+/* Title Styles */
+.search-title {
+    color: #ff00ff;
+    font-size: 2.5rem; 
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 10px rgba(255, 0, 255, 0.8), 0px 0px 30px rgba(0, 255, 255, 0.6);
+}
+
+/* No results style */
+.no-results {
+    color: #ff6666;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Search Result Item Styling */
+.search-result-item {
+    margin-bottom: 20px;
+    padding: 15px; 
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-result-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.8);
+}
+
+/* Post Title */
+.post-title {
+    color: #00ffff;
+    font-size: 1.5rem; 
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.7), 0px 0px 30px rgba(255, 0, 255, 0.6);
+}
+
+.post-title:hover {
+    color: #ff00ff;
+    text-shadow: 0px 0px 20px rgba(255, 0, 255, 1), 0px 0px 40px rgba(0, 255, 255, 1);
+}
+
+/* Neon Text */
+.neon-text {
+    color: #ff00ff;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(255, 0, 255, 1), 0px 0px 30px rgba(0, 255, 255, 1);
+}
+
+/* Post Meta */
+.post-meta {
+    color: #777;
+    font-size: 0.9rem; 
+    margin-top: 10px;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+}
+
+.author-name, .category-name {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.author-name:hover, .category-name:hover {
+    color: #ff00ff;
+}
+
+/* Post Body */
+.post-body {
+    color: #dcdcdc;
+    font-size: 1rem; 
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #111;
+    color: #ff00ff;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #00ffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h5 {
+    font-size: 1.2rem; 
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 10px rgba(255, 0, 255, 1);
+}
+
+footer p {
+    font-size: 1rem; 
+    color: #00ffff;
+}
