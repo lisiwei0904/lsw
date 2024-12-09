@@ -1,0 +1,239 @@
+/* Body and Global Styles */
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(90deg, #6a0572, #3700ff);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #6a0572;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #00ffff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff00ff;
+}
+
+/* Content Section */
+.content-section {
+    padding: 30px;
+    color: #d4d4d8;
+    font-size: 1.1rem;
+    background: rgba(20, 20, 20, 0.9);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 3px rgba(255, 0, 255, 0.3);
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(90deg, #3700ff, #6a0572);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.footer-text {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+.contact-btn {
+    background: #ff00ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+    border: none;
+}
+
+.contact-btn:hover {
+    background: #00ffff;
+}
+
+/* Button */
+.subscribe-btn {
+    background: #6a0572;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background: #ff00ff;
+    transform: scale(1.1);
+}
+
+/* Links */
+.nav-link {
+    text-decoration: none;
+    color: #00ffff;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #ff00ff;
+}
+
+/* Log Out Button */
+.logout-btn {
+    background: none;
+    border: none;
+    color: #00ffff;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #6a0572, #3700ff);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #6a0572;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ffff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff00ff;
+}
+
+section {
+    padding: 30px;
+    color: #d4d4d8;
+    font-size: 1.1rem;
+    background: rgba(20, 20, 20, 0.9);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 3px rgba(255, 0, 255, 0.3);
+}
+
+footer {
+    background: linear-gradient(90deg, #3700ff, #6a0572);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer h5 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+footer form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+footer form button {
+    background: #ff00ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+    border: none;
+}
+
+footer form button:hover {
+    background: #00ffff;
+}
+
+.subscribe-btn {
+    background: #6a0572;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background: #ff00ff;
+    transform: scale(1.1);
+}
+
